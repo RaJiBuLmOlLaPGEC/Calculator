@@ -10,7 +10,7 @@ public class QcalcApplication {
 		SpringApplication.run(QcalcApplication.class, args);
 		// System.out.println("Hello World");
 		StandardCalculator calc = new StandardCalculator();
-		calc.add(1, 1);
+		calc.add(Double.MAX_VALUE, 1);
 		System.out.println(calc.getResult());
 	}
 
